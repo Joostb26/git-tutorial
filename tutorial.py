@@ -50,8 +50,6 @@ def get_state():
     try:
         with open(".state", "r") as file:
             state = file.read()
-            if state.strip().lower == "reset":
-                reset()
             if state.strip().isnumeric():
                 return int(state.strip())
             else:
