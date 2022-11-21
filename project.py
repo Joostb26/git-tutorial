@@ -11,7 +11,7 @@ def hello_world(lang):
 
 hello_world("EN")
 
-antwoord = input("Wat is het antwoord op de ultieme vraag van het leven, het universum en alles?")
+antwoord = input("Wat is het antwoord op de ultieme vraag van het leven, het universum, en alles?")
 if check_antwoord(antwoord):
     print("Correct!")
 else:

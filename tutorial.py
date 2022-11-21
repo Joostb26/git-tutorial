@@ -88,6 +88,8 @@ nieuw = """
 def main():
     print("Dit is de tweede module")
 """
+
+aangepast = """
 def check_antwoord(antwoord):
     return antwoord == 42
 
@@ -106,6 +108,7 @@ if check_antwoord(antwoord):
     print("Correct!")
 else:
     print("Mogelijk heb je een andere vraag in je hoofd?")
+"""
 
 def manual_merge_branch():
     keep("manual_merge")
